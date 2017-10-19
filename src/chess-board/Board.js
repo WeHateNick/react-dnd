@@ -36,10 +36,12 @@ export default class Board extends Component {
 
       return (
         <div style={{
-          width: '100%',
-          height: '1000px',
+          width: '80%',
+          height: '800px',
           display: 'flex',
-          flexWrap: 'wrap'
+          flexWrap: 'wrap',
+          border: '3px solid brown',
+          margin: '1em',
         }}>
           {squares}
         </div>
