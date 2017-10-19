@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 40px auto 40px;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 1fr auto 4fr;
   grid-gap: 20px;
   justify-items: center;
@@ -35,7 +35,7 @@ header {
 }
 .Board {
   width: 80%;
-  height: 800px;
+  height: 350px;
   display: flex;
   flex-wrap: wrap;
   border: 3px solid brown;

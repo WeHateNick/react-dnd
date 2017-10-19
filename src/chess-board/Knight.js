@@ -5,8 +5,7 @@ export default class Knight extends Component {
     return <span 
     	style={{
     		display: 'inline-flex',
-		    'align-items': 'center',
-		    'font-size': '4em'
+		    fontSize: '2em'
     	}}>♘</span>;
   }
 }

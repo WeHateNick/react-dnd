@@ -4,9 +4,6 @@ import './App.css';
 import Board from './chess-board/Board'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <div className="App">

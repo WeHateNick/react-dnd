@@ -14,7 +14,7 @@ export default class Square extends Component {
         width: '100%', 
         height: '100%',
         display: 'flex',
-        'place-content': 'center'
+        placeContent: 'center'
       }}>
         { this.props.children }
       </div>
