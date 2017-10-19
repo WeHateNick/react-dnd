@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Board from './chess-board/Board'
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to my React DnD Tutorial</h1>
+        </header>
+        <p className="App-intro">
+          Play around with the drag and drop functionality I built
+        </p>
+        <Board knightPosition={([0,0])} />
+      </div>
+    );
+  }
+}
+
+export default App;
