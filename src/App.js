@@ -4,6 +4,9 @@ import './App.css';
 import Board from './chess-board/Board'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+  }
   render() {
     return (
       <div className="App">
@@ -14,7 +17,7 @@ class App extends Component {
         <p className="App-intro">
           Play around with the drag and drop functionality I built
         </p>
-        <Board knightPosition={([0,0])} />
+        <Board knightPosition={this.props.knightPosition} />
       </div>
     );
   }

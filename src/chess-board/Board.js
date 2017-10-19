@@ -35,14 +35,7 @@ export default class Board extends Component {
       }
 
       return (
-        <div style={{
-          width: '80%',
-          height: '800px',
-          display: 'flex',
-          flexWrap: 'wrap',
-          border: '3px solid brown',
-          margin: '1em',
-        }}>
+        <div className='Board'>
           {squares}
         </div>
       );

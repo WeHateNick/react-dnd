@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import { observe } from './chess-board/Game'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootEl = document.getElementById('root');
+
+observe(knightPosition =>
+	ReactDOM.render(<App knightPosition={knightPosition} />, rootEl)
+)
 registerServiceWorker();

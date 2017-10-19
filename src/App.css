@@ -33,6 +33,14 @@ header {
 .App-intro {
   font-size: large;
 }
+.Board {
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid brown;
+  margin: 1em;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
